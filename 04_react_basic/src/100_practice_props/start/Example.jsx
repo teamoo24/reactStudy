@@ -3,6 +3,7 @@ import Profile from "./components/Profile";
 const profile = [
   { name: "Takashi", age: 19, country: "Japan" },
   { name: "Jane", age: 28, country: "UK" },
+  { name: "John Doe", age: "??", country: "Japan" },
 ];
 
 const Example = () => {
@@ -17,7 +18,7 @@ const Example = () => {
         country={profile[0].country}
       />
       <Profile {...profile[1]} />
-      <Profile />
+      <Profile/>
     </div>
   );
 };
