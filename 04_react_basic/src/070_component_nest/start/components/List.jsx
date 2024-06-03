@@ -1,4 +1,4 @@
-const List = () => {
+export const List = () => {
   return (
     <ul>
       <li>item-1</li>
@@ -9,5 +9,3 @@ const List = () => {
     </ul>
   );
 };
-
-export { List }
