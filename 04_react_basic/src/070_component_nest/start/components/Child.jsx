@@ -1,13 +1,11 @@
 import "./Child.css";
 import { List } from "./List";
 
-const Example = () => {
+export default Child = () => {
   return (
     <div className="component">
       <h3>Hello Component</h3>
-       <List />
+      <List />
     </div>
   );
 };
-
-export default Example;
